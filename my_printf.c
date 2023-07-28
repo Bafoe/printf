@@ -13,7 +13,6 @@ va_list args;
 va_start(args, format);
 while (*format)
 {
-char spec;
 if (*format == '%')
 {
 format++;
